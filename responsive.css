@@ -1,0 +1,146 @@
+@media (max-width: 1286px) {
+    .login {
+        width: 90%; /* Increased width for better fit */
+        padding: 8vh 0;
+    }
+
+    .login-box {
+        width: 40%; /* Reduce the box width */
+        padding: 4vh 2vh;
+    }
+
+    #login-icon {
+        font-size: 3.5vh; /* Slightly smaller icon */
+    }
+
+    .login-box p {
+        font-size: 4.2vh; /* Reduced text size */
+    }
+
+    .user-id-input {
+        width: 70%;
+    }
+
+    #submit-button {
+        width: 85%;
+    }
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+    .login {
+        width: 65%; /* Increased width for better fit */
+        padding: 8vh 0;
+    }
+
+    .login-box {
+        width: 80%; /* Reduce the box width */
+        padding: 4vh 2vh;
+    }
+
+    #login-icon {
+        font-size: 3.5vh; /* Slightly smaller icon */
+    }
+
+    .login-box p {
+        font-size: 4.2vh; /* Reduced text size */
+    }
+
+    .user-id-input {
+        width: 70%;
+    }
+
+    #submit-button {
+        width: 85%;
+    }
+}
+
+/* Responsive styles for smaller tablets and large phones */
+@media (max-width: 768px) {
+    .login {
+        width: 80%;
+        padding: 6vh 0;
+    }
+
+    .login-box {
+        width: 90%;
+        padding: 4vh 2vh;
+    }
+
+    #login-icon {
+        font-size: 3vh;
+    }
+
+    .login-box p {
+        font-size: 3.8vh;
+    }
+
+    .user-id-input {
+        width: 75%;
+    }
+
+    #submit-button {
+        width: 90%;
+    }
+}
+
+/* Responsive styles for mobile phones */
+@media (max-width: 480px) {
+    .login {
+        width: 95%;
+        padding: 5vh 0;
+    }
+
+    .login-box {
+        width: 100%;
+        padding: 3vh 1vh;
+    }
+
+    #login-icon {
+        font-size: 2.8vh;
+    }
+
+    .login-box p {
+        font-size: 3.6vh;
+    }
+
+    .user-id-input {
+        width: 85%;
+    }
+
+    #submit-button {
+        width: 95%;
+    }
+}
+
+/* Extra small devices (small mobile phones) */
+@media (max-width: 360px) {
+    .login {
+        width: 100%;
+        padding: 5vh 0;
+    }
+
+    .login-box {
+        width: 100%;
+        padding: 3vh 1vh;
+    }
+
+    #login-icon {
+        font-size: 2.5vh;
+    }
+
+    .login-box p {
+        font-size: 3.2vh;
+    }
+
+    .user-id-input {
+        width: 90%;
+    }
+
+    #submit-button {
+        width: 98%;
+    }
+}

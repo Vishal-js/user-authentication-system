@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(244, 236, 236);
+}
+
+.login {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 10vh 0%;
+}
+
+.login-box {
+    width: 50%;
+    margin: auto;
+    padding: 5vh 0vh;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#login-icon {
+    font-size: 4vh;
+    color: #228cdc !important;
+}
+
+.login-box p {
+    margin: 2.5vh 0% !important;
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+.user-id-input {
+    width: 60%;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+
+input {
+    border: none;
+    padding: 10px 0;
+    outline: none;
+}
+
+#username:focus, #Password:focus {
+    outline: none;
+    border-bottom: none !important;
+}
+
+#submit-button {
+    background-color: #228cdc;
+    color: white;
+    padding: 1vh 5vh;
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 2vh;
+}
+
+.passwrod-forget {
+    width: 32%;
+    margin: auto;
+}
+
+.passwrod-forget p {
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+}

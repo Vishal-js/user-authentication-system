@@ -1,0 +1,295 @@
+body {
+    background-color:  #F1F3F6;
+}
+
+
+.container {
+    padding-top: 5vh;
+}
+
+
+.row {
+    flex-wrap: nowrap!important;
+}
+
+.upper-control-pannel {
+    background-color:white;
+    height: 80px;
+    padding: 2vh 2vh;
+    border-radius: 5px 5px;
+    box-shadow: 2px 2px 2px 2px rgb(221, 221, 221);
+}
+
+.account-holders-name {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+#accounticon {
+    font-size: 30px;
+    background-color: #228CDC;
+    padding: 10px 10px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+.name p {
+    padding: 0%;
+    margin: 0vh 2vh;
+}
+
+.p1 {
+    font-size: 13px;
+}
+
+.p2 {
+    font-weight:bold ;
+}
+
+
+.control-bar {
+    background-color: white;
+    margin-top: 2vh;
+    padding: 2vh 2vh;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgb(221, 221, 221);
+}
+
+#upper-extra-margin {
+    margin-top: 2vh;
+}
+
+
+#extra-margin {
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+}
+
+.user-info-bar {
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    border-radius:  5px;
+    margin-top: 2vh;
+    padding: 2vh 0vh;
+}
+
+
+.user-info-bar span {
+    margin: 0vh 2vh;
+    font-size: 20px;
+    color: #228CDC;
+}
+
+.user-info-bar p {
+    font-size: 19px;
+    font-weight: 500;
+    color: #434343;
+}
+
+.user-info-bar {
+    padding: 2vh 2vh;
+    margin: 0;
+}
+
+
+.user-info-bar ul {
+    list-style-type: none;
+    width: 100%;
+    margin: auto;
+    padding: 0; /* Ensure no padding */
+}
+
+.user-info-bar ul li {
+    margin: 2vh 0;
+    padding: 0; /* Ensure no padding */
+}
+
+.user-info-bar ul button {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    margin: auto;
+    text-align: center; /* Align button text to the left */
+    padding: 1vh 0px; /* Remove padding */
+}
+
+
+
+.user-info-bar button:focus {
+    background-color: #79c0f7;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+
+#control-showpannel {
+
+    background-color: white;
+    padding: 4vh 2vh 4vh 5vh;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgb(221, 221, 221);
+
+}
+
+
+
+.personal-info {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.username {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 1vh;
+}
+
+
+.username p {
+    font-size: 16px;
+    font-weight: normal ;
+    width: 49%;
+    background-color: #efefef;
+    border-radius:  5px;
+    padding: 2vh;
+}
+
+.gender-box {
+    margin-bottom: 4vh;
+}
+
+.Gender {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0%;
+    padding-bottom: 1vh;
+}
+
+
+.gender-input  {
+    font-size: 16px!important;
+    font-weight: normal!important ;
+    width: 30%;
+    background-color: #efefef;
+    border-radius:  5px;
+    padding: 2vh!important;
+}
+
+.email {
+    margin-bottom: 4vh;
+}
+
+.email p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0%;
+    padding-bottom: 1vh; 
+}
+
+.user-email {
+    font-size: 16px!important;
+    font-weight: normal!important ;
+    width: 49%;
+    background-color: #efefef;
+    border-radius:  5px;
+    padding: 2vh!important;
+}
+
+
+
+#num {
+    width: 30%;
+}
+
+
+
+.address-title{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+.address {
+    background-color: #efefef;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 2vh 2vh !important;
+}
+
+
+.address p {
+    margin: 0% 0%!important; 
+}
+
+
+.payment {
+    padding: 4vh 0px;
+}
+
+.payment-title  {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.card-detail input {
+       width: 30%;
+       padding: 2vh 2vh;
+       border: transparent;
+       outline: none;
+       background-color:#efefef ;
+       border-radius: 5px;
+    }
+
+
+.card-info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}    
+
+.card-date {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    padding: 2vh 2vh;
+    align-items: center;
+    margin: 2vh 0px;
+    margin-right: 2vh;
+    background-color:#efefef ;
+    border-radius: 5px;
+}
+
+.card-date p {
+    margin: 0%;
+    padding: 0%;
+}
+
+.card-date select {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+form button {
+    padding: 1vh 4vh;
+    font-size: 18px;
+    border: none;
+    background-color: #efefef;
+    border-radius: 5px;
+}
